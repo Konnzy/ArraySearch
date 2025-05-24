@@ -16,6 +16,7 @@ namespace ArraySearch
         public RichTextBox richTextBox2 { get; set; }
         public ProgressBar progressBar1 { get; set; }
         public int Comparisons { get; private set; }
+
         public int Hashing(string key)
         {
             int hash = 0;
