@@ -161,10 +161,10 @@ namespace ArraySearch
                         results.SaveFile(sfd.FileName, RichTextBoxStreamType.RichText);
                     }
             }
-                catch (Exception ex)
-                {
+            catch (Exception ex)
+            {
                     MessageBox.Show("Помилка при збереженні файлу: " + ex.Message, "Array Search", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
             }
+        }
     }
 }
